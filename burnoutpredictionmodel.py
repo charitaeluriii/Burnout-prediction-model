@@ -9,9 +9,8 @@ from sklearn.metrics import auc
 from sklearn.metrics import RocCurveDisplay #evaluation p
 
 from sklearn.metrics import roc_auc_score #evaluation metric
-import matplotlib.pyplot as plt # for visual representation
+import matplotlib.pyplot as plt #for visual representation
 import seaborn as sns # for visual representation as well
-import numpy as np # for numerical operations or whatsoever , we might not even use it
 import warnings # to ignore warnings , and live a happy life
 warnings.filterwarnings("ignore")
 # we load the sample data that I've created , absolutely fake data
